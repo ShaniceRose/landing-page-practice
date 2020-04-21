@@ -1,0 +1,91 @@
+body{
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+h1,h2,h3{
+    font-family: heavy;
+    text-align: center;
+}
+
+.nav {
+    position: absolute;   
+    max-width: 100%;
+    text-align: center;
+    top:100;
+    padding-top: 10px;
+}
+
+.nav ul {
+    display:flex;
+    justify-content:flex-end;
+    list-style: none;
+}
+
+.nav li {
+  margin-bottom: 4px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+}
+
+a:hover {
+    opacity: .70;
+
+}
+
+.hero {
+
+}
+
+.featuresInfo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding: 25px;
+}
+
+.dash {
+    width: 10px;
+}
+
+.products {
+   display: flex;
+   margin-bottom: 40px;
+   justify-content: flex-end;
+   width:100px ;
+
+}
+
+
+.footer {
+    margin-bottom: 60px;
+}
+.footer > * {
+    font-size: .8rem;
+    color: gray;
+}
+.footer .row > div {
+    margin-bottom: 30px;
+}
+.footer-links a{
+    display: block;
+    margin-bottom: 10px;
+}
